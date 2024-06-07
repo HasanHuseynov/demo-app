@@ -1,10 +1,11 @@
-package com.example.demoapp.service;
+package com.example.demoapp.service.serviceImpl;
 
 import com.example.demoapp.dto.request.UserRequest;
 import com.example.demoapp.dto.response.UserResponse;
 import com.example.demoapp.entity.User;
 import com.example.demoapp.mapper.UserMapper;
 import com.example.demoapp.repository.UserRepository;
+import com.example.demoapp.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
