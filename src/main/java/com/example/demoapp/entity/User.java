@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@Table(name = "User", schema = "auth_ms")
+@Table(name = "User", schema = "user_ms")
 public class User {
     @Id
     @Column(name = "user_id")

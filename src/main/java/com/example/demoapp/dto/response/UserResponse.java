@@ -1,5 +1,6 @@
 package com.example.demoapp.dto.response;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,5 +15,8 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 public class UserResponse {
     private String email;
-    private String password;
+    @NotBlank
+    private String name;
+    @NotBlank
+    private String surname;
 }

@@ -1,0 +1,60 @@
+# Ignore Gradle build directory, but not the build folder itself
+# This will ignore all files inside build except the build directory itself
+/build/*
+!/build/
+
+# Ignore other Gradle directories
+.gradle/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore IDE project files and folders
+/.idea/
+/*.iml
+/.vscode/
+/.project
+/.settings/
+/*.suo
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables files
+.env
+
+# Ignore compiled Java files
+*.class
+
+# Ignore IntelliJ IDEA specific files
+/.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ignore Eclipse specific files
+*.launch
+*.metadata
+*.recommenders
+*.classpath
+*.project
+*.settings/
+
+# Ignore NetBeans specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore build artifacts except for the build folder
+/out/
+/dist/

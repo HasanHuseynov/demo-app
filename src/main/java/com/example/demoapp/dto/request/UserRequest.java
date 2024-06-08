@@ -28,7 +28,5 @@ public class UserRequest{
     @Pattern(regexp = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}$",
             message = "Password must contain at least one uppercase letter, one lowercase letter, one number, one special character, and be at least eight characters long")
     private String password;
-    @NotBlank
-    @Size(min = 7,max = 7)
-    private String finCode;
+
 }
